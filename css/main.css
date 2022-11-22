@@ -9,8 +9,13 @@ a {
     color: #ffffff;
 }
 
+
 h2 {
     font-size: 35px;
+}
+
+.center {
+    text-align: center;
 }
 
 p {
@@ -20,6 +25,10 @@ p {
 
 .mx-150 {
     margin: 0 150px;
+}
+
+.mx-80 {
+    margin: 0 80px;
 }
 
 .mt-120 {
@@ -150,6 +159,52 @@ img {
 
 .single-donate-plan img {
     width: 60%;
+}
+
+.difference-today {}
+
+.diff-today-left {
+    margin-right: 2px;
+}
+
+.single-diff {
+    background-color: #2B8CE5;
+    background-size: cover;
+    padding: 15px;
+}
+
+.single-diff h2 {
+    font-size: 24px;
+}
+
+.single-diff p {
+    color: #ffffffcb;
+    width: 80%;
+    border-top: 1px solid #dddddd;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.single-diff .donate-here-button {
+    font-weight: 700;
+}
+
+#diff-1 {
+    background-image: url(../images/monalisa-tile-resized.jpg);
+    margin-bottom: 2px;
+}
+
+#diff-2 {
+    background-image: url(../images/eimy-childrens-emergency-fund-tile.jpg);
+    margin-bottom: 2px;
+}
+
+#diff-3 {
+    background-image: url(../images/cash-jim.jpg);
+}
+
+#diff-4 {
+    background-image: url(../images/bet-tile-final-crop.gif);
 }
 
 .sign-up-bg {
