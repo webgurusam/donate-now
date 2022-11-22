@@ -13,8 +13,20 @@ p {
     line-height: 150%;
 }
 
+.mx-150 {
+    margin: 0 150px;
+}
+
 .mt-120 {
     margin-top: 120px;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+img {
+    width: 100%;
 }
 
 .donate-now-banner {
@@ -98,4 +110,38 @@ p {
     text-align: center;
     outline: none;
     font-size: 16px;
+}
+
+.donate-plan {
+    width: 50%;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+#plan1 {
+    background-color: #e6b8af85;
+    margin-left: 0;
+}
+
+#plan2 {
+    background-color: #d0e0e38a;
+}
+
+#plan3 {
+    background-color: #d9d2e982;
+}
+
+#plan4 {
+    background-color: #ead1dc85;
+}
+
+.single-donate-plan {
+    width: 20%;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 13.33px;
+}
+
+.single-donate-plan img {
+    width: 60%;
 }
