@@ -4,6 +4,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 h2 {
     font-size: 35px;
 }
@@ -55,7 +60,8 @@ img {
     color: #ffffff;
 }
 
-.donate-here-button {
+.donate-here-button,
+.subscribe-button {
     text-decoration: none;
     color: #ffffff;
     background-color: #2b8ce5;
@@ -144,4 +150,60 @@ img {
 
 .single-donate-plan img {
     width: 60%;
+}
+
+.sign-up-bg {
+    background-color: #FFD24F;
+}
+
+.sign-up {
+    margin: 0 auto;
+    width: 45%;
+    padding: 50px 0;
+}
+
+.sign-up h1 {
+    font-size: 32px;
+    color: #231F20;
+}
+
+.sign-up p {
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.newsletter-form {}
+
+.newsletter-form input {
+    width: 90%;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+.subscribe-button {
+    border: none;
+    border-radius: 25px;
+    padding: 13px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color: #243C4B;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.footer img {
+    width: 10%;
+}
+
+.footer p {
+    color: #ffffff;
 }
