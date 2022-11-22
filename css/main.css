@@ -3,3 +3,38 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+.donate-now-banner {
+    background-image: url(../images/bd-flood-relief.jpg);
+    background-size: cover;
+}
+
+.donate-now-info {
+    padding: 170px 0 180px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.donate-now-info h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.donate-now-info p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 150%;
+}
+
+.donate-now-button {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2b8ce5;
+    padding: 15px 27px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
