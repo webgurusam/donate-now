@@ -4,6 +4,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+    font-size: 35px;
+}
+
+p {
+    color: #707070;
+    line-height: 150%;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
 .donate-now-banner {
     background-image: url(../images/bd-flood-relief.jpg);
     background-size: cover;
@@ -27,9 +40,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     line-height: 150%;
+    color: #ffffff;
 }
 
-.donate-now-button {
+.donate-here-button {
     text-decoration: none;
     color: #ffffff;
     background-color: #2b8ce5;
@@ -37,4 +51,51 @@ body {
     border-radius: 5px;
     display: inline-block;
     margin-top: 10px;
+}
+
+.donate-here {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate-amount {
+    padding-left: 0;
+    display: flex;
+    margin: 50px 0;
+}
+
+.donate-amount li {
+    list-style: none;
+    padding: 40px 20px;
+    background-color: #FAFAFA;
+    margin-left: 15px;
+    border-radius: 3px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.donate-amount li.active {
+    border: 1px solid #2B8CE5;
+    background-color: #2b8be545;
+    color: #2B8CE5;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.donate-field {
+    margin-bottom: 17px;
+}
+
+.donate-field input {
+    width: 100%;
+    border-width: 0 0 1px 0;
+    border-color: #C6C6C6;
+    color: #B3B3B3;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
 }
