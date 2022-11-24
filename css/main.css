@@ -125,6 +125,7 @@ img {
     text-align: center;
     outline: none;
     font-size: 16px;
+    padding-bottom: 10px;
 }
 
 .donate-plan {
